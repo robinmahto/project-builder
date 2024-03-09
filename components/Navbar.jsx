@@ -7,7 +7,7 @@ const Navbar = () => {
         return (
           <li
             key={index}
-            className=" hover:text-purple-100 ease-in-out duration-300 cursor-pointer font-medium"
+            className=" hover:text-purple-100 ease-in-out duration-300 cursor-pointer text-sm font-medium"
           >
             {navItem}
           </li>

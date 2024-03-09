@@ -12,7 +12,7 @@ const Home = () => {
         <div>
           <Image src="/logo.png" alt="appLogo" width={100} height={100} />
         </div>
-        <ul className="flex items-center gap-3">
+        <ul className="flex items-center gap-5">
           <Navbar />
         </ul>
         <div>
