@@ -1,4 +1,4 @@
-export const navlist = [
+export const navlistContent = [
   "Web/App Builder",
   "Influencer Marketing",
   "SEO",
