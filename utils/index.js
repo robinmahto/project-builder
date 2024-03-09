@@ -10,7 +10,8 @@ export const navlistContent = [
 
 export const heroContent = [
   {
-    title: "We make projects so easy, everyone can do it",
+    title: "We make projects so easy, ",
+    subTitle:'everyone can do it',
     description:
       "We are having expertise into Web & App development, Graphic Design, Content Writing, Search Engine Optimisation (SEO), Social Media Management/Marketing (SMM), Press Release (PR). As having more than 10 years of expertise we can assure you for best quality results.",
   },
