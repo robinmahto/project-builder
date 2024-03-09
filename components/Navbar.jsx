@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       {navlistContent?.map((navItem, index) => {
-        return <li key={index} className=" hover:text-teal-700 cursor-pointer">{navItem}</li>;
+        return <li key={index} className=" hover:text-purple-100 ease-in-out duration-300 cursor-pointer">{navItem}</li>;
       })}
     </>
   );

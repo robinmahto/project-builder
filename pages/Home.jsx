@@ -17,7 +17,9 @@ const Home = () => {
             <Navbar />
           </ul>
           <div>
-            <button>Build Now</button>
+            <button className="px-5 py-2 rounded-md text-white text-sm font-bold bg-gradient-to-r hover:bg-gradient-to-l  from-purple-700 via-purple-500 to-cyan-400 transform hover:scale-110 transition-transform duration-300">
+              Build Now
+            </button>
           </div>
         </nav>
         <Hero />
