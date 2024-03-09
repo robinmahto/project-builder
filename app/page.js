@@ -1,19 +1,10 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import MainBody from "@/components/MainBody";
-import Buyer from "@/components/Buyer";
-import Footer from "@/components/Footer";
-
-const Home = () => {
+import Home from "@/pages/Home";
+const Page = () => {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <MainBody />
-      <Buyer />
-      <Footer />
-    </div>
-  );
-};
+    <>
+     <Home/>
+    </>
+  )
+}
 
-export default Home;
+export default Page;
