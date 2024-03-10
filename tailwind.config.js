@@ -19,7 +19,8 @@ module.exports = {
         'yellow':'#FFD200',
       },
       fontFamily:{
-        montsAlt:['var(--font-montsAlt)']
+        montsAlt:['var(--font-mont-alt)'],
+        mono:['var(--font-mono)']
       }
     },
   },

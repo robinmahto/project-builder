@@ -1,12 +1,13 @@
 import { Montserrat, Montserrat_Alternates } from "next/font/google";
 import "./globals.css";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+export const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-mono", });
 
-export const montserratAlternates = Montserrat_Alternates({
+export const montAlt = Montserrat_Alternates({
   subsets: ["latin"],
-  variable: '--font-montsAlt',
-  weight:'400'
+  display: "swap",
+  variable: "--font-mont-alt",
+  weight:'600'
 });
 
 export const metadata = {
@@ -17,7 +18,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>{children}</body>
+      <body className={`${montserrat.className}`}>
+        {children}
+      </body>
     </html>
   );
 }
